@@ -173,6 +173,10 @@ h1#execTitle {
     visibility: collapse;
 }
 
+.noDiscord {
+    visibility: collapse;
+}
+
 #osuButtonContainer {
     height: 0vh;
     width: 0vw;
