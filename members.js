@@ -41,7 +41,7 @@ Vue.component('clubmembers', {
                 <a v-bind:href="osu" class="card-link">
                     <img class="osuIcon" src="resources/osuIcon.png"></img>
                 </a>
-                <a href="https://discord.gg/umqqtjR" class="card-link">
+                <a href="https://discord.gg/umqqtjR" class="card-link" v-bind:class="{noDiscord: discord === undefined}">
                     <i class="fab fa-discord"></i>
                     <span class="discordtooltip"> {{discord}} </span>
                 </a>
@@ -61,40 +61,37 @@ new Vue({
         src: "resources/logoNoText.png",
         execs: [{
             role: "President",
-            avatar: "https://i.imgur.com/kxcuMi3.png",
-            username: "THUNDERCOKC2678",
-            blurb: "Third year computer engineering student, alt map enthusiast, twitch streamer, and washed tourney gamer who's constantly going for higher acc and lower UR. #1 BUTAOTOME fan.",
-            discord: "thunderbird#2678",
-            email: "k74huang@uwaterloo.ca",
-            osu: "https://osu.ppy.sh/u/3388082"
-        }, {
-            role: "Vice President",
-            avatar: "https://a.ppy.sh/3662205?1582825442.png",
-            username: "Player0",
-            blurb: "Dedicated CS student that puts his studies to good use, creating tools to play beatmaps at negative approach rates. Specializes in playing Spunout and Easy, as it forms the phrase \"SO EZ\".",
-            discord: "PlayerZero#5446",
-            osu: "https://osu.ppy.sh/users/3662205"
-        }, {
-            role: "Treasurer",
-            avatar: "https://a.ppy.sh/3805080?1587632691.jpeg",
+            avatar: "https://a.ppy.sh/3805080?1638503842.png",
             username: "Devil_Oid",
-            blurb: "Honours Math student who enjoys playing with NF on the most, taking on maps way out of his skill range \"just cause\". Will occasionally make a random pp play.",
+            blurb: "Honours Math student who is essentially retired from osu!Standard. Mainly plays Catch the Beat, taking on maps way out of his skill range .\"just cause.\". Will occasionally make a random pp play.",
             discord: "Devil_Oid#0843",
             osu: "https://osu.ppy.sh/users/3805080"
         }, {
+            role: "Vice President",
+            avatar: "https://a.ppy.sh/15977117?1641070122.jpeg",
+            username: "thepersonwhodie",
+            blurb: "3rd year biochem student who likes puzzle games. Plays osu standard and only knows how to combo game.",
+            discord: "thepersonwhodied#8285",
+            osu: "https://osu.ppy.sh/users/15977117"
+        }, {
             role: "Tournament Host",
-            avatar: "https://a.ppy.sh/8171404?1599769618.png",
-            username: "LumenLogic",
-            blurb: "Math/CPA Student with plenty of osu! community experience: One of the hosts of the osu! Collegiate League and an admin of the Canadian 5 digit community. Insists that Reaction time (High AR)  is genetics.",
-            discord: "LumenLogic#5533",
-            osu: "https://osu.ppy.sh/users/8171404"
+            avatar: "https://a.ppy.sh/3021634?1538974526.jpeg",
+            username: "Meow Mix",
+            blurb: "Meow Mix",
+            discord: "Meow Mix#4235",
+            osu: "https://osu.ppy.sh/users/3021634"
         }, {
             role: "Contest Host",
-            avatar: "https://a.ppy.sh/12577911?1594938060.jpeg",
-            username: "Zer0-G",
-            blurb: "Student Pilot, flight sim enthusiast, and the owner of the largest Kudosu reserve in the entire club. Mentored by Lasse, known in the mapping scene, and will probably be a BN soon.",
-            discord: "Zer0-G#7501",
-            osu: "https://osu.ppy.sh/users/12577911"
+            avatar: "https://a.ppy.sh/3285474?1641778300.jpeg",
+            username: "Zumi",
+            blurb: "CS student taking PMATH courses in final term. Mapping noob, speed capped player. Call me Zumi",
+            osu: "https://osu.ppy.sh/users/3285474"
+        },  {
+            role: "Treasurer",
+            avatar: "https://a.ppy.sh/17597588?1622782273.jpeg",
+            username: "-twixxy-",
+            blurb: "Fourth year Computer Science Student who sucks at osu!mania!",
+            osu: "https://osu.ppy.sh/users/17597588"
         }],
         members: []
     },
