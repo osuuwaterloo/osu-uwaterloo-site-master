@@ -13,4 +13,5 @@ This is the official osu!UWaterloo website originally created by Winter 2020 exe
 
 ### Resources
 [CS Club Club Hosting](https://wiki.csclub.uwaterloo.ca/Club_Hosting)
+
 [CS Club Web Hosting](https://wiki.csclub.uwaterloo.ca/Web_Hosting)
