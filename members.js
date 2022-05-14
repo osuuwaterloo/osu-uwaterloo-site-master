@@ -68,11 +68,11 @@ new Vue({
             osu: "https://osu.ppy.sh/users/3805080"
         }, {
             role: "Vice President",
-            avatar: "https://a.ppy.sh/15977117?1641070122.jpeg",
-            username: "thepersonwhodie",
-            blurb: "3rd year biochem student who likes puzzle games. Plays osu standard and only knows how to combo game.",
-            discord: "thepersonwhodied#8285",
-            osu: "https://osu.ppy.sh/users/15977117"
+            avatar: "https://a.ppy.sh/5390121?1650570078.jpeg",
+            username: "Piggy",
+            blurb: "4th year CE student, mania player, occasionally dabbles in standard and taiko but sucks at all modes.",
+            discord: "Piggy#2119",
+            osu: "https://osu.ppy.sh/users/5390121"
         }, {
             role: "Tournament Host",
             avatar: "https://a.ppy.sh/3021634?1538974526.jpeg",
@@ -89,7 +89,7 @@ new Vue({
         },  {
             role: "Treasurer",
             avatar: "https://a.ppy.sh/17597588?1622782273.jpeg",
-            username: "-twixxy-",
+            username: "twixxy",
             blurb: "Fourth year Computer Science Student who sucks at osu!mania!",
             osu: "https://osu.ppy.sh/users/17597588"
         }],
