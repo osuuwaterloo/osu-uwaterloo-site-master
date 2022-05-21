@@ -8,7 +8,7 @@ This is the official osu!UWaterloo website originally created by Winter 2020 exe
 3. Once the newest changes are in the main branch follow these steps to serve it
 4. [Register for a CS Club Account](https://csclub.uwaterloo.ca/resources/machine-usage-agreement/summary/)
 6. Make sure you are added to the osu club group -> You have to email from the official WUSA Osu Club Email
-7. To update the site, run this command in your terminal/cmd	```ssh <userid>@hfcs.csclub.uwaterloo.ca git -C ~osu/www/ pull}```
+7. To update the site, run this command in your terminal/cmd	```ssh <you>@hfcs.csclub.uwaterloo.ca sudo -u osu git -C ~osu/www/ pull}```
 8. Then your done!
 
 ### Resources
