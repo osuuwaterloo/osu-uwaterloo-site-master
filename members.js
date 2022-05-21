@@ -75,23 +75,23 @@ new Vue({
             osu: "https://osu.ppy.sh/users/5390121"
         }, {
             role: "Tournament Host",
-            avatar: "https://a.ppy.sh/3021634?1538974526.jpeg",
-            username: "Meow Mix",
-            blurb: "Meow Mix",
-            discord: "Meow Mix#4235",
-            osu: "https://osu.ppy.sh/users/3021634"
+            avatar: "https://a.ppy.sh/8171404?1647014602.jpeg",
+            username: "LumenLogic",
+            blurb: "LumenLogic",
+            osu: "https://osu.ppy.sh/users/8171404"
         }, {
             role: "Contest Host",
-            avatar: "https://a.ppy.sh/3285474?1641778300.jpeg",
-            username: "Zumi",
-            blurb: "CS student taking PMATH courses in final term. Mapping noob, speed capped player. Call me Zumi",
-            osu: "https://osu.ppy.sh/users/3285474"
+            avatar: "https://a.ppy.sh/15977117?1641070122.jpeg",
+            username: "thepersonwhodie",
+            blurb: "3rd year biochem student who likes puzzle games. Plays osu standard and only knows how to combo game.",
+            discord: "thepersonwhodied#8285",
+            osu: "https://osu.ppy.sh/users/15977117"
         },  {
             role: "Treasurer",
-            avatar: "https://a.ppy.sh/17597588?1622782273.jpeg",
-            username: "twixxy",
-            blurb: "Fourth year Computer Science Student who sucks at osu!mania!",
-            osu: "https://osu.ppy.sh/users/17597588"
+            avatar: "https://a.ppy.sh/16039046?1639447130.jpeg",
+            username: "Redside",
+            blurb: "4th year ECE student with nothing better to do also osu FA btw :yep:",
+            osu: "https://osu.ppy.sh/users/16039046"
         }],
         members: []
     },
