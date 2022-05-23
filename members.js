@@ -77,7 +77,8 @@ new Vue({
             role: "Tournament Host",
             avatar: "https://a.ppy.sh/8171404?1647014602.jpeg",
             username: "LumenLogic",
-            blurb: "LumenLogic",
+            blurb: "Math/CPA Student with lost of osu community experience. Hosts Osu Collegiate League and an admin of the Canadian 5 digit community. Reaction time (High AR)  is genetics",
+            discord: "LumenLogic#5533",
             osu: "https://osu.ppy.sh/users/8171404"
         }, {
             role: "Contest Host",
@@ -91,6 +92,7 @@ new Vue({
             avatar: "https://a.ppy.sh/16039046?1639447130.jpeg",
             username: "Redside",
             blurb: "4th year ECE student with nothing better to do also osu FA btw :yep:",
+            discord: "Redside#1337",
             osu: "https://osu.ppy.sh/users/16039046"
         }],
         members: []
