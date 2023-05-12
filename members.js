@@ -38,7 +38,7 @@ Vue.component('clubmembers', {
             <h6 class="card-subtitle mb-2 text-muted">{{name}}</h6>
             <p class="card-text">{{blurb}}</p>
             <div class="card-footer text-muted">
-                <a v-bind:href="osu" class="card-link">
+                <a v-bind:href="osu" class="card-link" target="_blank">
                     <img class="osuIcon" src="resources/osuIcon.png"></img>
                 </a>
                 <a href="https://discord.gg/umqqtjR" class="card-link" v-bind:class="{noDiscord: discord === undefined}">
@@ -61,45 +61,45 @@ new Vue({
         src: "resources/logoNoText.png",
         execs: [{
             role: "President",
-            avatar: "https://a.ppy.sh/3805080?1638503842.png",
-            username: "Devil_Oid",
-            blurb: "Honours Math student who is essentially retired from osu!Standard. Mainly plays Catch the Beat, taking on maps way out of his skill range .\"just cause.\". Will occasionally make a random pp play.",
-            discord: "Devil_Oid#0843",
-            osu: "https://osu.ppy.sh/users/3805080"
+            avatar: "https://a.ppy.sh/6925441?1681861691.png",
+            username: "jiaxunjason",
+            blurb: "3rd year CS student, DT1 hater. One of the 17 Jasons in osu!uWaterloo.",
+            discord: "jiaxunjason#1686",
+            osu: "https://osu.ppy.sh/users/6925441"
         }, {
             role: "Vice President",
-            avatar: "https://a.ppy.sh/5390121?1650570078.jpeg",
-            username: "Piggy",
-            blurb: "4th year CE student, mania player, occasionally dabbles in standard and taiko but sucks at all modes.",
-            discord: "Piggy#2119",
-            osu: "https://osu.ppy.sh/users/5390121"
+            avatar: "https://a.ppy.sh/2012453?1679275649.jpeg",
+            username: "PikaPwn",
+            blurb: "3rd year Geomatics student. High accuracy plays only!",
+            discord: "PikaPwn#4548",
+            osu: "https://osu.ppy.sh/users/2012453"
         }, {
             role: "Tournament Host",
-            avatar: "https://a.ppy.sh/8171404?1647014602.jpeg",
-            username: "LumenLogic",
-            blurb: "Math/CPA Student with lost of osu community experience. Hosts Osu Collegiate League and an admin of the Canadian 5 digit community. Reaction time (High AR)  is genetics",
-            discord: "LumenLogic#5533",
-            osu: "https://osu.ppy.sh/users/8171404"
+            avatar: "https://a.ppy.sh/12055633?1679324423.jpeg",
+            username: "KLOCWISE",
+            blurb: "2nd year Civ Eng student, plays osu! for fun among many many other games. \"Join the club and play in Waterloo osu! Cup!!!\"",
+            discord: "KLOCWISE#4288",
+            osu: "https://osu.ppy.sh/users/12055633"
         }, {
             role: "Contest Host",
-            avatar: "https://a.ppy.sh/15977117?1641070122.jpeg",
-            username: "thepersonwhodie",
-            blurb: "3rd year biochem student who likes puzzle games. Plays osu standard and only knows how to combo game.",
-            discord: "thepersonwhodied#8285",
-            osu: "https://osu.ppy.sh/users/15977117"
+            avatar: "https://a.ppy.sh/10538842?1636705674.jpeg",
+            username: "danielq987",
+            blurb: "3rd year Tron student who will never get to 4 digit. Enjoys Celeste, jigsaw puzzles, and good public transit.",
+            discord: "blobbyliu#9508",
+            osu: "https://osu.ppy.sh/users/10538842"
         },  {
             role: "Treasurer",
-            avatar: "https://a.ppy.sh/16039046?1639447130.jpeg",
-            username: "Redside",
-            blurb: "4th year ECE student with nothing better to do also osu FA btw :yep:",
-            discord: "Redside#1337",
-            osu: "https://osu.ppy.sh/users/16039046"
+            avatar: "https://a.ppy.sh/8050865?1674325881.jpeg",
+            username: "twatziki",
+            blurb: "4th year ECE student who is hardstuck in taiko :(",
+            discord: "twatziki#0727",
+            osu: "https://osu.ppy.sh/users/8050865"
         }],
         members: []
     },
     methods: {
         goBack() {
-            window.history.back();
+            window.location.href = "index.html"
         }
     }
 })
