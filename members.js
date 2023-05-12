@@ -91,7 +91,7 @@ new Vue({
             role: "Treasurer",
             avatar: "https://a.ppy.sh/8050865?1674325881.jpeg",
             username: "twatziki",
-            blurb: "4th year ECE student who is hardstuck in taiko",
+            blurb: "4th year ECE student who is hardstuck in taiko :(",
             discord: "twatziki#0727",
             osu: "https://osu.ppy.sh/users/8050865"
         }],
